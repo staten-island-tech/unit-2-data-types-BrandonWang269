@@ -74,4 +74,6 @@ num = 1234567890
 factor(num) """
 
 import math
-print(math.gcd(13, 169))
+x = int(input("A number"))
+y = int(input("Another number"))
+print(math.gcd(x,y))
